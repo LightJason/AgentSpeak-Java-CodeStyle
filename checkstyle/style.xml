@@ -48,7 +48,7 @@
     </module>
 
     <module name = "Header">
-        <property name = "headerFile" value = "src/analysis/license/license.txt" />
+        <property name = "headerFile" value = "src/codestyle/license/license.txt" />
         <property name = "fileExtensions" value = "java" />
     </module>
 
@@ -70,7 +70,7 @@
     <!-- <module name="RegexpSinglelineJava"/> -->
 
     <module name="SuppressionFilter">
-        <property name="file" value="src/analysis/checkstyle/suppressions.xml"/>
+        <property name="file" value="src/codestyle/checkstyle/suppressions.xml"/>
     </module>
 
     <module name = "Translation" />
