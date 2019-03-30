@@ -48,7 +48,7 @@
     </module>
 
     <module name = "Header">
-        <property name = "headerFile" value = "src/codestyle/license/license.txt" />
+        <property name = "headerFile" value = "${checkstyle.header.file}" />
         <property name = "fileExtensions" value = "java" />
     </module>
 
@@ -69,9 +69,12 @@
 
     <!-- <module name="RegexpSinglelineJava"/> -->
 
+    <!--
+    set within pom checkstyle configuration item
     <module name="SuppressionFilter">
         <property name="file" value="src/codestyle/checkstyle/suppressions.xml"/>
     </module>
+    -->
 
     <module name = "Translation" />
 
