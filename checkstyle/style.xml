@@ -343,7 +343,7 @@
         <module name = "MutableException" />
 
         <module name = "NPathComplexity">
-            <property name = "max" value = "475" />
+            <property name = "max" value = "65" />
         </module>
 
         <!-- <module name="NeedBraces">
