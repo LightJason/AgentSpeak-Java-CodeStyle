@@ -80,6 +80,10 @@
 
     <module name = "UniqueProperties" />
 
+    <module name = "LineLength">
+        <property name = "max" value = "175" />
+    </module>
+
 
     <module name = "TreeWalker">
 
@@ -248,7 +252,6 @@
         <!-- <module name="InterfaceTypeParameterName"/> -->
 
         <module name = "JavadocMethod">
-            <property name = "minLineCount" value = "1" />
             <property name = "scope" value = "public" />
             <!-- @param is substitute with @tparam so allow missing tags -->
             <property name = "allowMissingParamTags" value = "true" />
@@ -278,10 +281,6 @@
 
         <module name = "LeftCurly">
             <property name = "option" value = "nl" />
-        </module>
-
-        <module name = "LineLength">
-            <property name = "max" value = "175" />
         </module>
 
         <module name = "LocalFinalVariableName">
