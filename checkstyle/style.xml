@@ -252,7 +252,6 @@
         <!-- <module name="InterfaceTypeParameterName"/> -->
 
         <module name = "JavadocMethod">
-            <property name = "scope" value = "public" />
             <!-- @param is substitute with @tparam so allow missing tags -->
             <property name = "allowMissingParamTags" value = "true" />
         </module>
